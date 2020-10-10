@@ -1,6 +1,6 @@
 # Articulatroy-trajectories-synthesis-using-pretrained-model-using-BLSTM
 wav2ema.py performs the following operations:
-- input: 'test.wav' (default) audio file (will be read using librosa library, specify sample rate if needed, by default it is 22khz)
+- input: 'test.wav' (default) audio file (will be read using librosa library)
 - loads a trained model and performs evaulation on the mfcc data
 - Optional: uncomment line 32 for adding global stats from training set(from a single subject)
 - output: 12 dim articulatory features:
